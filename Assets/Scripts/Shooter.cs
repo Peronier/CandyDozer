@@ -34,4 +34,5 @@ public class Shooter : MonoBehaviour
         candyRigidbody.AddForce(transform.forward * shotForce);
         candyRigidbody.AddTorque(new Vector3(0, shotTorque, 0));
     }
+    //https://learning.unity3d.jp/series/yasuhara_math/ unityŒö®‚Ì”ŠwŠwK“®‰æ
 }
